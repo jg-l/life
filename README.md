@@ -2,6 +2,8 @@
 
 Life is a simple command-line application to keep track of life's events.
 
+![life in action](screeenshot.png)
+
 # Features
 - Keep track of your life with micro bloggin
 - Read and Append only. Mistakes are a part of life.
