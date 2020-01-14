@@ -18,7 +18,7 @@ func getLifeLogLocation() string {
 	if err != nil {
 		panic(err)
 	}
-	return u + ".life"
+	return u + "/.life"
 }
 
 // save is simple but expensive, but its for single user case, so performance isn't the main goal.
