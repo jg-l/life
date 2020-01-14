@@ -44,4 +44,5 @@ If you REALLY want to delete an entry, you can get [boltbrowser](https://github.
 
 
 # Future features (probably not...)
-- Filter entries based on date ranges
+- [x] Remove boltdb big boy dependencies!
+- [ ] Filter entries based on date ranges
