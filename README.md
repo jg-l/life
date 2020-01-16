@@ -8,6 +8,7 @@ Life is a simple command-line application to keep track of life's events.
 - Keep track of your life with micro bloggin
 - Read and Append only. Mistakes are a part of life.
 - Cross-platform.
+- Small terminal friendly 100 width
 
 # Usage
 
@@ -37,12 +38,9 @@ Your _.life_ database can be found in `$HOME/.life`
 - Filter life log using grep
 `$ life | grep "#spiritual"`
 
-## Delete Entries
-
-If you REALLY want to delete an entry, you can get [boltbrowser](https://github.com/br0xen/boltbrowser) and open the the life log at `$HOME/.life`
-
 
 
 # Future features (probably not...)
 - [x] Remove boltdb big boy dependencies!
 - [ ] Filter entries based on date ranges
+- [ ] Colorize output! 

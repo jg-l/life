@@ -17,6 +17,9 @@ func display(entries Entries) {
 		t.AppendRow(table.Row{
 			entries[e].getTimeObject().Format(lifeLogFormat), m,
 		})
+		t.AppendRow(table.Row{
+			"", "",
+		})
 	}
 	t.SetStyle(table.StyleColoredBright)
 	t.Style().Color.Row = text.Colors{text.Reset, text.Reset}
